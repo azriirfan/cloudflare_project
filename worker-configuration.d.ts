@@ -4,7 +4,7 @@
 interface __BaseEnv_Env {
     DB: D1Database;
     ASSETS: Fetcher;
-    GREETING: "Hello from Day 1";
+    GREETING: "Hai from Day 1",
 }
 declare namespace Cloudflare {
     interface GlobalProps {

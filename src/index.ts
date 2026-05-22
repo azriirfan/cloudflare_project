@@ -27,7 +27,7 @@ export default {
 		if (url.pathname === "/api/config") {
 			return Response.json({
 				greeting: env.GREETING,
-				hasKey: !!env.API_KEY,
+
 			});
 		}
 		return env.ASSETS.fetch(request);
